@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  transition: background-color 0.05s ease;
+}
+
+h1 {
+  color: white;
+	padding-top: 20%;
+	text-align: center;
+  text-shadow: 1px 1px 5px black;
+}
+
+.form-container {
+  width: 300px;
+  margin: auto;
+	margin-top: 150px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+	text-align: center;
+}
+
+.form-container input {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-container button {
+  width: 60%;
+	margin-top: 10px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}

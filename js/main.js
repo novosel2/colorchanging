@@ -1,3 +1,12 @@
+if (localStorage.getItem('isAuthenticated') !== 'true' ) {
+	window.location.href = 'login.html';
+}
+
+document.addEventListener('mousedown', () => {
+	localStorage.removeItem('isAuthenticated');
+	window.location.href = 'login.html';
+})
+
 document.addEventListener('mousemove', (event) => {
   const clientX = event.x;
 	const clientY = event.y;
